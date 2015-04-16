@@ -255,6 +255,7 @@ public class DashChunkSource implements ChunkSource {
         int newFirstSegmentNum = newIndex.getFirstSegmentNum();
         int segmentNumShift = oldIndex.getSegmentNum(newIndex.getTimeUs(newFirstSegmentNum))
             - newFirstSegmentNum;
+        if (segmentNumShift < 0) { segmentNumShift = 0; }
         representationHolder.segmentNumShift += segmentNumShift;
         representationHolder.segmentIndex = newIndex;
       }
@@ -352,6 +353,7 @@ public class DashChunkSource implements ChunkSource {
         seekPositionUs = getLiveSeekPosition(nowUs, indexUnbounded, segmentIndex.isExplicit());
       }
       segmentNum = segmentIndex.getSegmentNum(seekPositionUs);
+      if (segmentNum == 0) { segmentNum = 1; }
     } else {
       segmentNum = queue.get(out.queueSize - 1).nextChunkIndex
           - representationHolder.segmentNumShift;
