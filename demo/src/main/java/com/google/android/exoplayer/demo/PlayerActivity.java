@@ -55,6 +55,7 @@ import android.widget.PopupMenu;
 import android.widget.PopupMenu.OnMenuItemClickListener;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.os.Handler;
 
 import java.util.Map;
 
@@ -220,6 +221,42 @@ public class PlayerActivity extends Activity implements SurfaceHolder.Callback, 
     }
     player.setSurface(surfaceView.getHolder().getSurface());
     player.setPlayWhenReady(true);
+
+      final Handler h = new Handler();
+      final long delay = 5000;
+
+      h.postDelayed(new Runnable() {
+          private int oldState = -1;
+
+          @Override
+          public void run() {
+              if (player == null) return;
+
+              System.out.println("AAAAAAA : " + oldState + " / " + player.getPlaybackState() +
+              " / " + player.getCurrentPosition());
+
+              h.postDelayed(this, delay);
+
+              int newState = player.getPlaybackState();
+              if (
+                      ((newState == oldState) && (newState == ExoPlayer.STATE_IDLE)) ||
+                      ((newState == oldState) && (newState == ExoPlayer.STATE_BUFFERING))
+                 ) {
+                  long position = player.getCurrentPosition();
+                  //player.getPlayerControl().pause();
+                  player.seekTo(15000);
+                  //player.getPlayerControl().start();
+                  //player.setPlayWhenReady(true);
+
+                  oldState = -1;
+              } else {
+                  oldState = newState;
+              }
+
+          }
+      }, delay);
+
+
   }
 
   private void releasePlayer() {
