@@ -77,6 +77,33 @@ import java.util.Locale;
         DemoUtil.TYPE_SS),
   };
 
+    public static final Sample[] LIVESTREAMING = new Sample[] {
+            new Sample("Unified Streming Live (DASH-IF)",
+                    "http://live.unified-streaming.com/loop/loop.isml/loop.mpd?format=mp4&session_id=25020",
+                    DemoUtil.TYPE_DASH),
+            new Sample("Docker Wim Tv",
+                    "http://docker.wim.tv:1935/live/23278e43-b012-463e-ba71-6c87d399cc05/manifest.mpd",
+                    DemoUtil.TYPE_DASH),
+            new Sample("greenicn http",
+                    "http://52.16.74.76:1935/live/foo/manifest_mpm4sav_mvlist_w12345678.mpd",
+                    DemoUtil.TYPE_DASH),
+            new Sample("greenicn icn",
+                    "http://127.0.0.1:9090/foo_manifest_mpm4sav_mvlist.mpd",
+                    DemoUtil.TYPE_DASH),
+            new Sample("experiments MPD in list mode",
+                    "http://peer.wim.tv:1935/live/foo/manifest_mpm4sav_mvlist_w12345679.mpd",
+                    DemoUtil.TYPE_DASH),
+            new Sample("experiments MPD in time mode",
+                    "http://peer.wim.tv:1935/live/foo/manifest_mpm4sav_mvtime_w12345679.mpd",
+                    DemoUtil.TYPE_DASH),
+            new Sample("greenicn icn 1df89e29-f561-4292-8cb3-f252a35d8410",
+                    "http://127.0.0.1:9090/1df89e29-f561-4292-8cb3-f252a35d8410_manifest_mpm4sav_mvlist.mpd",
+                    DemoUtil.TYPE_DASH),
+            new Sample("greenicn icn foo",
+                    "http://127.0.0.1:9090/foo_manifest_mpm4sav_mvlist.mpd",
+                    DemoUtil.TYPE_DASH),
+    };
+
   public static final Sample[] WIDEVINE_GTS = new Sample[] {
     new Sample("WV: HDCP not specified", "d286538032258a1c",
         "http://www.youtube.com/api/manifest/dash/id/d286538032258a1c/source/youtube?"
