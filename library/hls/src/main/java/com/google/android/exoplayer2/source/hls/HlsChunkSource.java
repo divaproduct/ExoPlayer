@@ -394,7 +394,7 @@ import java.util.Locale;
 
     public InitializationTrackSelection(TrackGroup group, int[] tracks) {
       super(group, tracks);
-      selectedIndex = indexOf(group.getFormat(0));
+      selectedIndex = group.length - 1;
     }
 
     @Override
