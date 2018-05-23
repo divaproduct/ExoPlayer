@@ -36,6 +36,7 @@ allprojects {
     }
     project.ext {
         exoplayerPublishEnabled = true
+        publicRepo=true
     }
     if (it.hasProperty('externalBuildDir')) {
         if (!new File(externalBuildDir).isAbsolute()) {

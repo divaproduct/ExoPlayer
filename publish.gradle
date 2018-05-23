@@ -19,9 +19,9 @@ if (project.ext.has("exoplayerPublishEnabled")
         description = releaseDescription
         version = releaseVersion
         repoName = getBintrayRepo()
-        userOrg = 'google'
-        groupId = 'com.google.android.exoplayer'
-        website = 'https://github.com/google/ExoPlayer'
+        userOrg = 'deltatre'
+        groupId = 'com.deltatre.android.exoplayer'
+        website = 'http://github.com/davibe/exoplayegetSegmentsr'
     }
 }
 
