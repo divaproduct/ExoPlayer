@@ -34,8 +34,11 @@ android {
         //    testCoverageEnabled = true
         // }
     }
-
     testOptions.unitTests.includeAndroidResources = true
+
+    lintOptions {   
+        abortOnError false   
+    }
 }
 
 dependencies {
