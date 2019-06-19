@@ -29,6 +29,7 @@ export APIKEY=5836dee73f8cd3d4e7c3e46b9c3c4bff38ef4694
 test -n $USERNAME || echo 'Missing username for bintray upload (USERNAME env var)'
 test -n $APIKEY || echo 'Missing apikey for bintray upload (APIKEY env var)'
 
+./gradlew build
 ./gradlew bintrayUpload \
     -PbintrayUser=$USERNAME \
     -PbintrayKey=$APIKEY \
