@@ -1553,6 +1553,7 @@ public class MediaCodecVideoRenderer extends MediaCodecRenderer {
             case "XE2X":
             case "XT1663":
             case "Z12_PRO":
+            case "gts210vewifi":
             case "Z80":
               deviceNeedsSetOutputSurfaceWorkaround = true;
               break;
