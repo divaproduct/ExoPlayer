@@ -50,5 +50,5 @@ git reset --hard head
 - add to shared accounts file
 - test in TestApp
 - test in integrationdemo
-- test with exoplayer 2.8 present
-- test running exoplayer 2.8 together
+- test with exoplayer 2.10.8 present
+- test running exoplayer 2.10.8 together
