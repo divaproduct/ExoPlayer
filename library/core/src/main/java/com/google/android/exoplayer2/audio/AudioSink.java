@@ -16,7 +16,7 @@
 package com.google.android.exoplayer2.audio;
 
 import android.media.AudioTrack;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.Format;
 import com.google.android.exoplayer2.PlaybackParameters;

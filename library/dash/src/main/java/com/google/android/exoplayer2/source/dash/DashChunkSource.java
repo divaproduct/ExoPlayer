@@ -16,7 +16,7 @@
 package com.google.android.exoplayer2.source.dash;
 
 import android.os.SystemClock;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import com.google.android.exoplayer2.Format;
 import com.google.android.exoplayer2.source.chunk.ChunkSource;
 import com.google.android.exoplayer2.source.dash.PlayerEmsgHandler.PlayerTrackEmsgHandler;

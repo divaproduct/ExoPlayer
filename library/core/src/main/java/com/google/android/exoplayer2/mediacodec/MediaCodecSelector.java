@@ -16,7 +16,7 @@
 package com.google.android.exoplayer2.mediacodec;
 
 import android.media.MediaCodec;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import com.google.android.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
 import java.util.List;
 

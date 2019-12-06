@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.upstream;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.util.Assertions;
 import java.io.IOException;

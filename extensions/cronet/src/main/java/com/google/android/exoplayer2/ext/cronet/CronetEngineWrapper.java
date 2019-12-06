@@ -16,7 +16,7 @@
 package com.google.android.exoplayer2.ext.cronet;
 
 import android.content.Context;
-import androidx.annotation.IntDef;
+import android.support.annotation.IntDef;
 import com.google.android.exoplayer2.util.Log;
 import com.google.android.exoplayer2.util.Util;
 import java.lang.annotation.Documented;

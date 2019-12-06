@@ -31,13 +31,12 @@ android {
 }
 
 dependencies {
-    api 'com.google.android.gms:play-services-cast-framework:17.0.0'
-    implementation 'androidx.annotation:annotation:1.1.0'
+    api 'com.google.android.gms:play-services-cast-framework:16.2.0'
+    implementation 'com.android.support:support-annotations:26.1.0'
     implementation project(modulePrefix + 'library-core')
     implementation project(modulePrefix + 'library-ui')
     compileOnly 'org.checkerframework:checker-qual:' + checkerframeworkVersion
     compileOnly 'org.checkerframework:checker-compat-qual:' + checkerframeworkVersion
-    testImplementation project(modulePrefix + 'testutils-robolectric')
 }
 
 ext {

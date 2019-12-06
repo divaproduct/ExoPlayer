@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.video;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import com.google.android.exoplayer2.util.ParsableByteArray;
 
 /** Dolby Vision configuration data. */

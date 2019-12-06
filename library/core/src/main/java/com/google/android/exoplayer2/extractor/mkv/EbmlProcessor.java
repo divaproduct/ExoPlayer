@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.extractor.mkv;
 
-import androidx.annotation.IntDef;
+import android.support.annotation.IntDef;
 import com.google.android.exoplayer2.ParserException;
 import com.google.android.exoplayer2.extractor.ExtractorInput;
 import java.io.IOException;

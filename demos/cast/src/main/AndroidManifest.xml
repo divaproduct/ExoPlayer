@@ -14,7 +14,8 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.android.exoplayer2.castdemo">
+  xmlns:tools="http://schemas.android.com/tools"
+  package="com.google.android.exoplayer2.castdemo">
 
   <uses-permission android:name="android.permission.INTERNET"/>
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -22,7 +23,11 @@
   <uses-sdk/>
 
   <application android:label="@string/application_name" android:icon="@mipmap/ic_launcher"
-      android:largeHeap="true" android:allowBackup="false">
+      android:largeHeap="true" android:allowBackup="false"
+    tools:targetApi="p">
+
+    <!--    tools:replace="android:appComponentFactory"
+    android:appComponentFactory="android.support.v4.app.CoreComponentFactory"-->
 
     <meta-data android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
         android:value="com.google.android.exoplayer2.ext.cast.DefaultCastOptionsProvider"/>

@@ -16,7 +16,7 @@
 package com.google.android.exoplayer2.text.webvtt;
 
 import android.graphics.Typeface;
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 import android.text.Layout.Alignment;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;

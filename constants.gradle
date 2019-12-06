@@ -13,7 +13,7 @@
 // limitations under the License.
 project.ext {
     // ExoPlayer version and version code.
-    releaseVersion = '2.10.8.1'
+    releaseVersion = '2.10.8.1dejetified'
     releaseVersionCode = 201000801
     minSdkVersion = 16
     targetSdkVersion = 28
@@ -23,7 +23,7 @@ project.ext {
     robolectricVersion = '4.2'
     autoValueVersion = '1.6'
     checkerframeworkVersion = '2.5.0'
-    androidXTestVersion = '1.1.0'
+    androidXTestVersion = '26.1.0'
     modulePrefix = ':'
     if (gradle.ext.has('exoplayerModulePrefix')) {
         modulePrefix += gradle.ext.exoplayerModulePrefix

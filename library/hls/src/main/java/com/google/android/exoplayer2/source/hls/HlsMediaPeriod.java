@@ -16,7 +16,7 @@
 package com.google.android.exoplayer2.source.hls;
 
 import android.net.Uri;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.Format;

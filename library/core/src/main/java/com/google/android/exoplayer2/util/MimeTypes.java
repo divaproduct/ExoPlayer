@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.util;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import com.google.android.exoplayer2.C;
 import java.util.ArrayList;

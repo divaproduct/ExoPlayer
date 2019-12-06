@@ -13,4 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<manifest package="com.google.android.exoplayer2.ext.cast"/>
+<manifest package="com.google.android.exoplayer2.ext.cast"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools">
+  <application>
+    <!--    tools:replace="android:appComponentFactory"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"-->
+  </application>
+</manifest>

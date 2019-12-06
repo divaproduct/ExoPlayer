@@ -19,7 +19,7 @@ import android.content.Context;
 import android.graphics.Point;
 import android.os.Parcel;
 import android.os.Parcelable;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Pair;
 import android.util.SparseArray;

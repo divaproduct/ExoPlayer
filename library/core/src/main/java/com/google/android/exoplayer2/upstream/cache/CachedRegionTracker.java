@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.upstream.cache;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 import com.google.android.exoplayer2.extractor.ChunkIndex;
 import com.google.android.exoplayer2.util.Log;
 import com.google.android.exoplayer2.util.Util;

@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.ext.opus;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
 import com.google.android.exoplayer2.util.LibraryLoader;
 

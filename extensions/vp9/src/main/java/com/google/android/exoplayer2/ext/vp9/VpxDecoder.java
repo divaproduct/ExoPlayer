@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.ext.vp9;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import android.view.Surface;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.decoder.CryptoInfo;

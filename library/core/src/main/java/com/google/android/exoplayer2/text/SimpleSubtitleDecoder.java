@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.text;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.decoder.SimpleDecoder;
 import java.nio.ByteBuffer;

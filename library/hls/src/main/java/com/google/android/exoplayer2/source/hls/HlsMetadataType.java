@@ -18,7 +18,7 @@ package com.google.android.exoplayer2.source.hls;
 
 import static java.lang.annotation.RetentionPolicy.SOURCE;
 
-import androidx.annotation.IntDef;
+import android.support.annotation.IntDef;
 import java.lang.annotation.Retention;
 
 /**

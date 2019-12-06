@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.extractor.flv;
 
-import androidx.annotation.IntDef;
+import android.support.annotation.IntDef;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.extractor.Extractor;
 import com.google.android.exoplayer2.extractor.ExtractorInput;

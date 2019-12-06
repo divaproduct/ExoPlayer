@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.text.cea;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.Format;
 import com.google.android.exoplayer2.text.Subtitle;

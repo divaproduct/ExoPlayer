@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2;
 
-import androidx.annotation.IntDef;
+import android.support.annotation.IntDef;
 import com.google.android.exoplayer2.source.SampleStream;
 import com.google.android.exoplayer2.util.MediaClock;
 import java.io.IOException;

@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.source.hls;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import com.google.android.exoplayer2.source.SampleQueue;
 import com.google.android.exoplayer2.source.TrackGroup;
 import java.io.IOException;

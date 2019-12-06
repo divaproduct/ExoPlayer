@@ -29,12 +29,33 @@ android {
         targetSdkVersion project.ext.targetSdkVersion
     }
 
-    testOptions.unitTests.includeAndroidResources = true
+    packagingOptions {
+        exclude 'META-INF/proguard/androidx-annotations.pro'
+    }
 }
 
 dependencies {
+
     implementation project(modulePrefix + 'library-core')
-    implementation 'androidx.work:work-runtime:2.1.0'
+
+    def work_version = "2.2.0"
+
+    // (Java only)
+    implementation "androidx.work:work-runtime:$work_version"
+
+    // Kotlin + coroutines
+    implementation "androidx.work:work-runtime-ktx:$work_version"
+
+    // optional - RxJava2 support
+    implementation "androidx.work:work-rxjava2:$work_version"
+
+    // optional - GCMNetworkManager support
+    implementation "androidx.work:work-gcm:$work_version"
+
+    // optional - Test helpers
+    androidTestImplementation "androidx.work:work-testing:$work_version"
+    //implementation 'androidx.work:work-runtime:2.1.0'
+    //implementation 'android.arch.work:work-runtime-ktx:1.0.0'
 }
 
 ext {

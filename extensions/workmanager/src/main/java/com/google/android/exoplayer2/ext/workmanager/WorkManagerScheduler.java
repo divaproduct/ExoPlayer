@@ -18,7 +18,7 @@ package com.google.android.exoplayer2.ext.workmanager;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
-import androidx.work.Constraints;
+/*import androidx.work.Constraints;
 import androidx.work.Data;
 import androidx.work.ExistingWorkPolicy;
 import androidx.work.NetworkType;
@@ -26,6 +26,7 @@ import androidx.work.OneTimeWorkRequest;
 import androidx.work.WorkManager;
 import androidx.work.Worker;
 import androidx.work.WorkerParameters;
+import androidx.work.*;*/
 import com.google.android.exoplayer2.scheduler.Requirements;
 import com.google.android.exoplayer2.scheduler.Scheduler;
 import com.google.android.exoplayer2.util.Assertions;

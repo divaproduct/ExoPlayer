@@ -20,7 +20,7 @@ import static com.google.android.exoplayer2.util.Util.castNonNull;
 import android.net.Uri;
 import android.os.Parcel;
 import android.os.Parcelable;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import com.google.android.exoplayer2.util.Assertions;
 import com.google.android.exoplayer2.util.Util;
 import java.io.IOException;

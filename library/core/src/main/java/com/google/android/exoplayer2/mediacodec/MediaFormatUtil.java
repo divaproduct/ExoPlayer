@@ -16,7 +16,7 @@
 package com.google.android.exoplayer2.mediacodec;
 
 import android.media.MediaFormat;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import com.google.android.exoplayer2.Format;
 import com.google.android.exoplayer2.video.ColorInfo;
 import java.nio.ByteBuffer;

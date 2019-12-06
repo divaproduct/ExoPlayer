@@ -16,7 +16,7 @@
 package com.google.android.exoplayer2.text.pgs;
 
 import android.graphics.Bitmap;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import com.google.android.exoplayer2.text.Cue;
 import com.google.android.exoplayer2.text.SimpleSubtitleDecoder;
 import com.google.android.exoplayer2.text.Subtitle;

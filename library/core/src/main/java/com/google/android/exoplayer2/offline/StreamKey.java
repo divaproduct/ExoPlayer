@@ -17,8 +17,8 @@ package com.google.android.exoplayer2.offline;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 
 /**
  * A key for a subset of media which can be separately loaded (a "stream").

@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.offline;
 
-import androidx.annotation.IntDef;
+import android.support.annotation.IntDef;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.util.Assertions;
 import java.lang.annotation.Documented;

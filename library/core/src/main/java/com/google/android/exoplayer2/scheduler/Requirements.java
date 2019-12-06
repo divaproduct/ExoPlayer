@@ -26,7 +26,7 @@ import android.os.BatteryManager;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.os.PowerManager;
-import androidx.annotation.IntDef;
+import android.support.annotation.IntDef;
 import com.google.android.exoplayer2.util.Assertions;
 import com.google.android.exoplayer2.util.Util;
 import java.lang.annotation.Documented;
