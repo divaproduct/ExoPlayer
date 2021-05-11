@@ -4,7 +4,7 @@ afterEvaluate {
     publishing {
         repositories {
             maven {
-                url = findProperty('mavenRepo') ?: "${buildDir}/repo"
+                url = findProperty('mavenRepo') ?: "${rootDir}/repo"
             }
         }
         publications {
